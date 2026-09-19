@@ -1,0 +1,14 @@
+html {
+	background-color: black;
+	color: #87572a;
+}
+
+fieldset {
+	border-color: #87572a;
+}
+
+#inputBox {
+	background-color: #3f3738;
+	width: 98.6vw;
+	height: 25vh;
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+		<title>Protomen D/N Coder</title>
+		<meta
+			name="description" 
+			content="A decoder/encoder for messages using the Protomen Act III cipher"
+		>
+		<link rel='stylesheet' href='protoStyle.css'>
+		<script type='text/javascript' src='protoScript.js'></script>
+	</head>
+
+	<body>
+		<textarea
+			id='inputBox'
+		></textarea>
+		
+		<div id='settings'>
+			<fieldset>
+				<legend>BAND SET</legend>
+				
+				<select
+					id='left-code'
+				>
+					<option>A</option>
+					<option>B</option>
+					<option>C</option>
+					<option>D</option>
+					<option>E</option>
+					<option>F</option>
+					<option>G</option>
+					<option>H</option>
+					<option>I</option>
+					<option>J</option>
+					<option>K</option>
+					<option>L</option>
+					<option>M</option>
+					<option>N</option>
+					<option>O</option>
+					<option>P</option>
+					<option>Q</option>
+					<option>R</option>
+					<option>S</option>
+					<option>T</option>
+					<option>U</option>
+					<option>V</option>
+					<option>W</option>
+					<option>X</option>
+					<option>Y</option>
+					<option>Z</option>
+					<option>0</option>
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+					<option>6</option>
+					<option>7</option>
+					<option>8</option>
+					<option>9</option>
+				</select>
+				
+				<select
+					id='right-code'
+				>
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+					<option>6</option>
+					<option>7</option>
+					<option>8</option>
+					<option>9</option>
+					<option>10</option>
+					<option>11</option>
+					<option>12</option>
+					<option>13</option>
+					<option>14</option>
+					<option>15</option>
+					<option>16</option>
+					<option>17</option>
+					<option>18</option>
+					<option>19</option>
+					<option>20</option>
+					<option>21</option>
+					<option>22</option>
+					<option>23</option>
+					<option>24</option>
+					<option>25</option>
+					<option>26</option>
+					<option>27</option>
+					<option>28</option>
+					<option>29</option>
+					<option>30</option>
+					<option>31</option>
+					<option>32</option>
+					<option>33</option>
+					<option>34</option>
+					<option>35</option>
+					<option>36</option>
+				</select>
+			
+			</fieldset>
+			
+			<fieldset>
+				<legend>DIRECTION</legend>
+				
+				<div>
+					<input
+						type='radio'
+						id='encode'
+						name='direction'
+						value='encode'
+						checked
+					/>
+					<label
+						for='encode'
+					>
+						Encode
+					</label>
+				</div>
+
+				<div>
+					<input
+						type='radio'
+						id='decode'
+						name='direction'
+						value='decode'
+					/>
+					<label
+						for='decode'
+					>
+						Decode
+					</label>
+				</div>
+			</fieldset>
+		</div>
+		
+		<p
+			id='output'
+		>
+		</p>
+	</body>
+</html>
+	
